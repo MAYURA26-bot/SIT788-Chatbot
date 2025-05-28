@@ -2,8 +2,6 @@
 
 This project is a smart, multimodal AI assistant designed to recommend vehicles based on user preferences. The assistant supports both **text** and **voice input**, processes natural language queries using **Azure OpenAI (GPT)**, and responds in both **text and synthesized audio** formats using **Azure Text-to-Speech**.
 
-
-
 ## Features
 
 -  Voice input support (speech-to-text via Azure)
@@ -12,7 +10,6 @@ This project is a smart, multimodal AI assistant designed to recommend vehicles 
 -  Tailored vehicle suggestions based on a rich dataset
 -  User-friendly Bootstrap chat interface
 -  Django-based backend with clear modular structure
-
 
 ##  How It Works
 
@@ -60,9 +57,16 @@ The assistant uses a custom JSON dataset `vehicles.json` containing structured i
 
 ```bash
 git clone https://github.com/your-username/vehicle-assistant.git
+cd SIT788-Chatbot
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
 
+pip install django
+pip install openai
+pip install azure-cognitiveservices-speech
+pip install python-dotenv
+pip install soundfile
+pip install scipy
+pip install numpy
 
-
+### Setup Instructions
