@@ -30,6 +30,39 @@ This project is a smart, multimodal AI assistant designed to recommend vehicles 
 - GPT output is converted to audio.
 - User receives transcribed input, GPT response, and voice reply.
 
+## 💾 Dataset
+
+The assistant uses a custom JSON dataset `vehicles.json` containing structured information on various cars including:
+
+- `name`, `make`, `model`, `year`, `price`
+- `fuel_type`, `engine_size`, `drive_type`, `seating_capacity`
+- `use_case`, `safety_rating`, and a descriptive `summary`
+
+##  Technologies Used
+
+| Component            | Technology / Service        |
+|----------------------|-----------------------------|
+| Frontend UI          | HTML5, Bootstrap            |
+| Backend Framework    | Django (Python)             |
+| NLP Intelligence     | Azure OpenAI (GPT)          |
+| Voice Input          | Azure Speech-to-Text        |
+| Voice Output         | Azure Text-to-Speech        |
+
+##  Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- Azure subscription with OpenAI and Speech services
+- Git & Virtualenv
+
+### Setup Instructions
+
+```bash
+git clone https://github.com/your-username/vehicle-assistant.git
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
 
 
 
