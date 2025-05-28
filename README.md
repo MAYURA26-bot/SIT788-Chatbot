@@ -27,7 +27,7 @@ This project is a smart, multimodal AI assistant designed to recommend vehicles 
 - GPT output is converted to audio.
 - User receives transcribed input, GPT response, and voice reply.
 
-## 💾 Dataset
+## Dataset
 
 The assistant uses a custom JSON dataset `vehicles.json` containing structured information on various cars including:
 
@@ -87,7 +87,7 @@ AZURE_SPEECH_REGION=YOUR_AZURE_SPEECH_REGION
 python manage.py migrate
 ```
 
-### tart the Django Server
+### Start the Django Server
 
 ```bash
 python manage.py runserver
