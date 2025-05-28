@@ -68,5 +68,7 @@ pip install python-dotenv
 pip install soundfile
 pip install scipy
 pip install numpy
+```bash
 
-### Setup Instructions
+### sefsefset
+
