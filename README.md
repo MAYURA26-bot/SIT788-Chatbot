@@ -71,16 +71,24 @@ pip install numpy
 ```
 
 ### Updatw .env file
+
+```bash
 AZURE_OPENAI_KEY=YOUR_AZURE_OPENAI_KEY
 AZURE_OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT
 AZURE_OPENAI_API_VERSION = YOUR_AZURE_OPENAI_API_VERSION
 AZURE_OPENAI_DEPLOYMENT_NAME=YOUR_AZURE_OPENAI_DEPLOYMENT_NAME
 AZURE_SPEECH_KEY=YOUR_AZURE_SPEECH_KEY
 AZURE_SPEECH_REGION=YOUR_AZURE_SPEECH_REGION
+```
 
 ### Run database nigration
+
+```bash
 python manage.py migrate
+```
 
 ### tart the Django Server
-python manage.py runserver
 
+```bash
+python manage.py runserver
+```
